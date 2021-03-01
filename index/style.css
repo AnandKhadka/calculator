@@ -1,18 +1,18 @@
 body{
-    background: linear-gradient(to right,blue, rgb(133, 133, 231)) ;
+    background: linear-gradient(to right,rgb(29, 29, 199), rgb(58, 58, 233)) ;
 }
 .main{
     position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translateX(-50%)translateX(-50%);
+    top: 10%;
+    left: 10%;
+    
 }
 .textview{
     width: 217px;
     margin: 5px;
     font-size: 25px;
     padding: 5px;
-    border: none;
+    border: yellow;
     color: black ;
 }
 .button{
@@ -24,4 +24,5 @@ body{
     background-color: rgb(122, 122, 155);
     border: none;
     color: white;
+    
 }
